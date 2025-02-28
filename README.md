@@ -1,6 +1,7 @@
 # discord-afk-bot
 
-## A simple Discord bot that can automatically(or manually) move inactive users to an afk voice channel. The bot also can track a specific user, moves them after a set period of inactivity, and allows them to return to their original channel when they unmute(and contain built-in logs).
+## A simple Discord bot that can automatically(or manually) move inactive users to an afk voice channel. 
+The bot also can track a specific user, moves them after a set period of inactivity, and allows them to return to their original channel when they unmute(and contain built-in logs).
 
 # Build it from source
 1. clone the repository
