@@ -27,11 +27,18 @@ bot.run("YOUR_BOT_TOKEN")
 ```
 
 # Usage
-`!autoafk @user` 
+```bash
+!autoafk @user
+``` 
 start/stop tracking a user for automatic afk.
-`!afk @user [reason]`
+
+```bash
+!afk @user [reason]
+```
 marks a user(if no user is marked, you  as afk.
-`!back @user`
+```bash
+!back @user
+```
 removes afk status from a user and moves them back to the original voice channel.
 
 by default, if the user tracked stays muted on a voice chat for 3 minutes he's moved to the afk channel, to change this time look for the `@tasks.loop` on the script, and change the minutes and the time on seconds right below.
