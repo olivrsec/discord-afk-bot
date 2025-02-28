@@ -5,12 +5,16 @@ The bot also can track a specific user, moves them after a set period of inactiv
 
 # Build it from source
 1. clone the repository
+
 `git clone https://github.com/olivrsec/discord-afk-bot.git
  cd discord-afk-bot`
-2. install all the dependencies
+3. install all the dependencies
+
 `pip install -r requirements.txt`
 (ensure to install python and pip before)
+
 4. open the script and replace the following IDS with your values:
+
 `idVoiceChannel = YOUR_AFK_VOICE_CHANNEL_ID
 idChannel = YOUR_TEXT_CHANNEL_ID
 idRole = YOUR_AFK_ROLE_ID
